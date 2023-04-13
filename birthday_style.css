@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    /* background: linear-gradient(color at the start of the page,color at the end of the page);*/
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Happy Monkey', cursive;
+    src: url(HappyMonkey-Regular.ttf);
+}
+
+#header {
+    display: flex;  /* place the items of id in one line from the left side of the screen  */
+    flex-direction: column; /* Every items have its own row */
+    align-items: center; /* Place the item at the start of the page */
+}
+
+
+#round_image {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+h1, h2, h4 {
+    /* Creating a shadow effect */
+    /* text-shadow:  */
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background: #EFB0C9;    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;  /* margin: top right bottom left */
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+.gift-img {
+    background-image: url(images/gift_cover.jpg);
+    background-size: cover; /* Place the image in proper manner */
+    width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* Changing the background image on each hover effect */
+#happy:hover {
+    background-image: url(images/giphy.gif);
+    background-size: cover;
+}
+
+#people-reaction:hover {
+    background-image: url(images/people_react.gif);
+    background-size: cover;
+}
+
+
+#genius:hover {
+    background-image: url(images/genius.gif);
+    background-size: cover;
+}
+
+#badass:hover {
+    background-image: url(images/badass.gif);
+    background-size: cover;
+}
+
+
+#cheers {
+    height: 200px;
+}
+
+#cheers:hover {
+    background-image: url(images/cheers.gif);
+    background-size: cover;
+}
+
+.footer {
+    width: 400px;
+    font-style: italic;
+    margin: 40px auto;  /* 40px for top & bottom, auto for left & right */    
+}
+
+a {
+    color: white;
+}
